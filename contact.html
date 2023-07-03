@@ -8,20 +8,35 @@
 <body>
     <form action="" method="post">
         <fieldset>
-         <legend>Identificação</legend>
+            <legend>Identificação</legend>
 
-        <p>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="100" required>
-        </p>
-        <p>
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha" maxlength="8" required>
-        </p>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" maxlength="100" required>
+            </p>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" maxlength="8" required>
+            </p>
 
-         <label for="data">Escolha uma Data:</label>
-         <input type="date" name="Data" id="data">
+            <p>
+            <label for="data">Escolha uma Data:</label>
+            <input type="date" name="Data" id="data">
+            </p>
 
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+            </p>
+        
+            <p>Sexo:</p>
+            <p>
+                <input type="radio" name="sexo" id="masculino">
+                <label for="masculino">Masculino</label>
+
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino">Feminino</label>
+            </p>
         </fieldset>
     </form>
 </body>
