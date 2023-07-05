@@ -41,11 +41,50 @@
 
             <p>
                 <label for="rua">Rua:</label>
-                <input type="text" name="Rua" id="rua" placeholder="Digite o nome da sua rua.">
+                <input type="text" name="Rua" id="rua" placeholder="Digite o nome da sua rua." required>
             </p>
             <p>
                 <label for="numero">Numero:</label>
-                <input type="number" name="Numero" id="numero" max="6">
+                <input type="number" name="Numero" id="numero" placeholder="Digite o Numero da sua casa" min="0" max="16" required>
+            </p>
+            <p>
+                <label for="estado">Estados:</label>
+                <section id="estado">
+                    <optgroup label="Região Suldeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santos</option>
+                    </optgroup>
+
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                    </optgroup>
+
+                    <optgroup label="Região Nordeste">
+                        <option value="BA">Bahia</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PI">Piauí</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="PB">Paraíba</option>
+                    </optgroup>
+
+                    <optgroup label="Região Norte">
+                        <option value="AM">Amazonas</option>
+                        <option value="RR">Roraima</option>
+                        <option value="AP">Amapá</option>
+                        <option value="PA">Pará</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="AC">Acre</option>
+                    </optgroup>
+                </section>
             </p>
         </fieldset>
     </form>
